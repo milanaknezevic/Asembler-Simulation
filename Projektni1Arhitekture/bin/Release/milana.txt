@@ -1,0 +1,10 @@
+mov rsi,rdi
+add rsi,5
+load
+add rcx,rax
+mov 0x2,rc
+not rcx,rax
+and rcx,rax
+store
+store
+

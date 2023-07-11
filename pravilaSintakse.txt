@@ -1,0 +1,58 @@
+U ovom fajlu su sadrzana pravila upotrebe mog ISA.
+
+INSTRUKCIJE:
+dijele se na instrukcije sa:
+-tri argumenta
+-dva argumenta
+-jednim argumentom
+(S tim da se instrukcija podrazumjeva kao argument0)
+Dostupni registri:
+rsi,rdi,rax,rcx
+Velicina memorijske alokacije se moze promjeniti u Instrukcije.cs klasi
++MOV INSTRUKCIJA: 
+
+MOV argument1,argument2 
+gdje argument1 i argument2 mogu biti registri, kombinacija 
+registra i memorijske adrese, s mogucnoscu da argument1 moze biti registar ili 
+memorijska adresa,a argument2 moze biti cijeli broj.
+npr.
+mov rsi,2
+mov 0x7,rsi
+
++ADD, SUB, AND, OR INSTRUKCIJA: 
+ADD argument1,argument2 
+SUB argument1,argument2
+AND argument1,argument2 
+OR argument1,argument2
+slicna pravila vaze kao za MOV 
+npr.
+add rax,rcx
+sub rcx,2
+and rsi,0x7
+or rdi,3
+
++CMP INSTRUKCIJA
+CMP argument1,argument2 
+slicno kao za mov s tim da argument 1 moze biti broj.
+npr.
+cmp 0,rdi
+cmp 0,0x6
+ 
+INSTRUKCIJE SA DVA ARGUMENTA
++JE, JNE, JL, JGE, NOT
+npr.
+JE argument1
+gdje je argument1 labela, labela treba da bude vec postojeca u skriptu sa istim nazivom
+ali sa dvotackom na kraju naziva labele npr.
+
+labela:
+cmp rsi,rdi
+jl labela
+
+NOT argument1 
+gdje argument1 moze biti samo registar
+npr.
+not rax
+
+INSTRUKCIJE SA JEDNIM ARGUMENTA
++STORE, LOAD INSTRUKCIJE

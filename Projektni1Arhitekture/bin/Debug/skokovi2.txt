@@ -1,0 +1,25 @@
+mov rax, 5
+mov 0x7, rax
+add rdi, 8
+store
+add 0x6, 2
+mov rax, 0x6
+not rax
+luping1:
+add rcx, 1
+cmp rcx, 9
+jl luping1
+mov rcx, 0
+mov rdi, 0
+mov rsi, 0
+add rax, 236
+luping2:
+store
+cmp rdi, 10
+je izlaz
+jl luping2
+
+izlaz:
+mov rax, 0
+mov rcx, 60
+

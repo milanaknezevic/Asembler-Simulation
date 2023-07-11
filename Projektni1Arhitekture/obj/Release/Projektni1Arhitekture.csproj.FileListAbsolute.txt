@@ -1,0 +1,7 @@
+C:\Users\Korisnik\Desktop\PrviProjektniAr\Projektni1Arhitekture\Projektni1Arhitekture\bin\Release\Projektni1Arhitekture.exe.config
+C:\Users\Korisnik\Desktop\PrviProjektniAr\Projektni1Arhitekture\Projektni1Arhitekture\bin\Release\Projektni1Arhitekture.exe
+C:\Users\Korisnik\Desktop\PrviProjektniAr\Projektni1Arhitekture\Projektni1Arhitekture\bin\Release\Projektni1Arhitekture.pdb
+C:\Users\Korisnik\Desktop\PrviProjektniAr\Projektni1Arhitekture\Projektni1Arhitekture\obj\Release\Projektni1Arhitekture.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\PrviProjektniAr\Projektni1Arhitekture\Projektni1Arhitekture\obj\Release\Projektni1Arhitekture.exe
+C:\Users\Korisnik\Desktop\PrviProjektniAr\Projektni1Arhitekture\Projektni1Arhitekture\obj\Release\Projektni1Arhitekture.pdb
+C:\Users\Korisnik\Desktop\PrviProjektniAr\Projektni1Arhitekture\Projektni1Arhitekture\obj\Release\Projektni1Arhitekture.csprojAssemblyReference.cache

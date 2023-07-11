@@ -1,0 +1,36 @@
+add rsi,2
+mov rdi,rsi
+add rdi,1
+add rdi,4
+plabela:
+add 0x2,3
+add 0x3,50
+add 0x4,3200
+load
+store
+cmp rdi,9
+jne plabela
+lab:
+mov rsi,2
+jne lab
+mov rsi,2
+mov rdi,4
+petlja1:
+cmp rsi,rdi
+add rsi,1
+jl petlja1
+mov rsi,3
+mov rdi,3
+mov rsi,0
+petlja2:
+add rax,1
+store
+cmp rdi,9
+jl petlja2
+mov rsi,4
+mov rdi,3
+petlja33:
+cmp rsi,rdi
+sub rsi,1
+jge petlja33
+

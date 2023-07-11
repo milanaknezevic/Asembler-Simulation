@@ -1,0 +1,8 @@
+add rsi,5
+mov rdi,rsi
+labela1:
+or rsi,1
+je labex
+add rsi,rax
+add rax, 5
+
