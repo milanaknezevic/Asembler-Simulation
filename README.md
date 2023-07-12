@@ -7,8 +7,8 @@ It should be possible to source assembly code is loaded from a file.
 Correctly perform the necessary lexical, syntactic and semantic analysis code.
 The instruction set of the simulated machine (guest) must include:
 
-    Abasic arithmetic operations (ADD, SUB, MUL, DIV)
-    Any live cell with two or three live neighbours lives on to the next generation.
+    basic arithmetic operations (ADD, SUB, MUL, DIV)
+    basic bit logic operations (AND, OR, NOT, XOR)
     Any live cell with more than three live neighbours dies, as if by overpopulation.
     Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
