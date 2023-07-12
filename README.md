@@ -9,17 +9,10 @@ The instruction set of the simulated machine (guest) must include:
 
     basic arithmetic operations (ADD, SUB, MUL, DIV)
     basic bit logic operations (AND, OR, NOT, XOR)
-    Any live cell with more than three live neighbours dies, as if by overpopulation.
-    Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
-
-The instruction set of the simulated machine (guest) must include:
- basic arithmetic operations (ADD, SUB, MUL, DIV)
-  basic bit logic operations (AND, OR, NOT, XOR)
-  instruction for moving data between registers (MOV)
-  an instruction to enter data from standard input (similar to the corresponding system call)
-  an instruction to print data to standard output (similar to the corresponding system call)
-  
-  
+    instruction for moving data between registers (MOV)
+    an instruction to enter data from standard input (similar to the corresponding system call)
+    an instruction to print data to standard output (similar to the corresponding system call)
+ 
 Implement simple single-step debugging support. 
 Enable execution and review of values of all registers and specified memory addresses at set breakpoints in assembly language code at runtime. 
 In this mode, the transition to the next instruction (NEXT or STEP console commands) and transition to the next breakpoint (CONTINUE).
